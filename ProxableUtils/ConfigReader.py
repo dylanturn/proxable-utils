@@ -1,10 +1,11 @@
-import ConfigParser
+import configparser
 import logging
+
 
 class BaseConfig:
 
     def __init__(self):
-        self.config = ConfigParser.RawConfigParser()
+        self.config = configparser.RawConfigParser()
         self.config.read('proxable.conf')
 
     def getSections(self):

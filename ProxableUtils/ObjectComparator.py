@@ -1,4 +1,4 @@
-from utils import Logging
+from ProxableUtils import Logging
 import logging
 
 # Compares two proxy json objects to make sure that aside from their status property they're identical.
