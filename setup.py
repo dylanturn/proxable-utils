@@ -22,7 +22,7 @@ setup(
         'influxdb==4.1.1',
         'six==1.10.0',
         'configparser==3.5.0',
-        'requests==2.18.1',
+        'requests==2.20.0',
         'urllib3==1.21.1'
     ],
     dependency_links=[
