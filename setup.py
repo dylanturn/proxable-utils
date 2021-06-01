@@ -23,7 +23,7 @@ setup(
         'six==1.10.0',
         'configparser==3.5.0',
         'requests==2.18.1',
-        'urllib3==1.21.1'
+        'urllib3==1.26.5'
     ],
     dependency_links=[
         'https://pypi.python.org/simple/requests/',
